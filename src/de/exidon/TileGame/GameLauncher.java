@@ -1,12 +1,10 @@
 package de.exidon.TileGame;
 
 public class GameLauncher {
-	public GameLauncher() {
-		new Window();
+	public static void main(String[] args) {
+	//	new window();
 	}
-	
-	public void Window() {
-		//new Display()
+	public void window(){
+		Display();
 	}
-	
 }
